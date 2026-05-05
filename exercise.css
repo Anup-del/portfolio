@@ -1,0 +1,351 @@
+* {
+    margin: 0;
+    padding: 100;
+
+}
+
+body {
+    background-color: #0b022b;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    justify-content: center;
+}
+
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    background-color: hwb(240 0% 80%);
+    scroll-behavior: smooth;
+
+}
+
+.left:hover{
+    color: aqua;
+    font-size: 1.7rem;
+
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+nav ul li {
+    display: flex;
+    list-style: none;
+    margin: 0 23px;
+    display: inline;
+    scroll-behavior: smooth;
+}
+
+nav a {
+    color: white;
+    padding: 0.5rem
+}
+
+nav a:hover {
+    transform: scale(1.05);
+}
+
+.left {
+    font-size: 1.5rem;
+}
+
+nav ul li:hover {
+    text-decoration: underline;
+    color: wheat;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 90vh;
+    background-color: #020529;
+    padding: 50px;
+}
+
+text.p {
+    padding: 80px 20px;
+    text-align: center;
+    font-size: rem;
+}
+
+.pic {
+    border: 50;
+    stroke: rgb(238, 241, 241);
+    box-shadow: 44px;
+    position: relative;
+    padding-inline-start: 300px;
+    padding: bottom 900px;
+    float: left;
+    background-image: cross-fade();
+}
+
+.about {
+
+    margin: 0vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: -1vh;
+}
+
+/* .img img {
+    width: 400px;
+    border-radius: 10px;
+    padding: 23px;
+    padding: 230px;
+} */
+.text-section p {
+    padding: 80px 20px;
+    text-align: center;
+    font-size: rem;
+}
+
+.h2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0;
+    color: green;
+}
+
+.info {
+    margin: 40px auto;
+    padding: 20px;
+    width: 300px;
+    height: 200px;
+    background: rgb(15, 2, 75);
+    color: white;
+    border: 3px solid #444;
+    border-radius: 20px;
+    font-size: 1rem;
+    line-height: 1.5;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    float: center;
+    /* makethiss any object to left */
+}
+
+.info:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.4);
+}
+
+.info p {
+    font-size: 0.9rem;
+    margin: 10px 0;
+}
+
+.projects {
+    text-align: center;
+    padding: 80px 20px;
+
+}
+
+.skills {
+    text-align: center;
+}
+
+.skills:hover {
+    transform: scale(1.05);
+}
+
+.diffrent {
+    text-align: center;
+    margin: 30%;
+}
+
+.contact {
+    text-align: center;
+}
+
+.skills-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.skills {
+
+    padding: 80px 20px;
+    text-align: center;
+
+    color: #ffffff;
+}
+
+div {
+    display: block;
+    unicode-bidi: isolate;
+}
+
+.diffrent {
+
+    color: #ffffff;
+}
+
+.skill i {
+    font-size: 4em;
+    /* Adjust icon size */
+    color: #ffffff;
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.skill i:hover {
+    transform: scale(1.2);
+    /* Slight zoom effect */
+    color: #58a6ff;
+    /* Highlight color */
+}
+
+.skill img {
+    width: 60px;
+    /* Fixed size for images */
+    height: 60px;
+    object-fit: contain;
+    /* Maintain the original aspect ratio */
+    border-radius: 50%;
+    /* Make only images round */
+    background: #161b22;
+    /* Optional: Add a background color for contrast */
+    padding: 5px;
+    /* Optional: Add inner padding for a clean look */
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    display: flex;
+    transform: translate3d(45deg);
+}
+
+.diffrent p {
+    margin: -8vw;
+    padding: 0vh;
+}
+
+img {
+    margin: 0;
+    height: 50vh;
+    width: vh;
+    background-image: url("");
+}
+
+img:hover {
+    margin: 0;
+    padding: 0;
+}
+
+.project {
+    margin: 0;
+    margin: 0px auto;
+    padding: 30px;
+    width: 647;
+    height: 500;
+    background: rgb(234, 233, 238);
+    border: 3px solid #444;
+    border-radius: 20px;
+    font-size: 1rem;
+    line-height: 1.5;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    float: center;
+    display: flex;
+    overflow: hidden;
+    text-align: center;
+    
+}
+.project:hover{
+    transform: rotate(180);
+}
+.anchor{
+    width: 30x;
+    height: 20px;
+    background-color: #000;
+    border: rgb(255, 0, 0);
+    border-radius: 5px;
+    position: relative;
+    left: 75px;
+    display: inline-flex;
+    margin-top: 275px;
+}
+.anchor1 {
+    width: 75px;
+    height: px;
+    background-color:red;
+    border: rgb(255, 0, 0);
+    border-radius: 5px;
+    position: relative;
+    color: white;
+    display: inline-flex;
+    margin-top: 550px;
+    gap: 85px;
+    left: 149px;
+}
+.controls {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.controls button {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    border: none;
+    margin: 5px;
+    cursor: pointer;
+    background: #662121;
+}
+
+/* line indicator */
+.line {
+    width: 90px;
+    height: 4px;
+    background: #be0c0c7a;
+    margin: 10px auto;
+    border-radius: 5px;
+}
+
+.active-line {
+    width: 30px;
+    height: 100%;
+    background: rgb(241, 238, 238);
+    border-radius: 5px;
+    transform: translateX(0);
+    transition: 0.4s;
+}
+.nav-item {
+    position: relative;
+    padding: auto;
+    color: #ffffff;
+    border-radius: 40px;
+    overflow: hidden;
+    transition: color 0.6s;
+    z-index: 1;
+    cursor: pointer; 
+    gap: 20px;
+}
+.nav-item::before{
+    content: '';
+    position: absolute;
+    inset: 0;
+    z-index: -1;
+    background: #e90a0a;
+    clip-path: circle(0% at 50% 50%);
+    transition: clip-path .6s cubic-bezier(0.4,0,0.2,1);
+}
+.nav-item:hover{
+    color: #787a94;
+
+}
+.nav-item:hover::before{
+    clip-path: circle(100% at 50% 50%);
+}
